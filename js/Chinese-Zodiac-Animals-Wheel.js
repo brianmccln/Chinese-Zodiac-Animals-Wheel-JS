@@ -55,7 +55,7 @@ function renderAnimals() { // output the 12 animals to the section
 
         // make sound icon play animal sound mp3:
         soundIcon.addEventListener('click', function() {
-            sound.src = `audio/${animal.chr}.mp3`;
+            sound.src = `audio/${animal.eng}.mp3`;
             sound.play();
         });
 
